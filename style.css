@@ -58,7 +58,7 @@ html,body{
     position: absolute;
     left: 30%;
     top:30%;
-    z-index: 2;
+    z-index: 3;
     
     display: flex;
     align-items: center;
@@ -75,9 +75,11 @@ html,body{
     height: 600px;
 }
 .imgbody{
+
     position: absolute;
-    left :27%;
+    left :21%;
     bottom: 1%;
+    z-index: 2;
 }
 
 .sec-quote{
@@ -97,27 +99,62 @@ html,body{
 
 
 .leftcontainer{
+    z-index: -1;
     position: absolute;
-    top:40%;
-    right:99%;
+    top:30%;
+    right:80%;
 }
 .leftcontainer img{
-    height: 100px;
+    height: 80px;
     display: block;
     width: auto;
 }
 .leftcontainer h1{
-    display: inline;  
-    font-size: 60px;
+
+
+    font-size: 50px;
     color :white;
-    line-height: 1;
-margin-right: 15px; 
+    line-height: 1.1;
+    margin: 5px 0; 
+    white-space: nowrap;
 
 }
-/* 
 
 
-headings h1.on-top {
+
+ h1.on-top {
     position: relative;
     z-index: 3;
-} */
+}
+
+.rightcontainer{
+    background-color: #e0ccdc;
+    position: absolute;
+    top:30%;
+    right:-70%;
+    height: 300px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcontainer img{
+    height: 150px;
+    position: relative;
+    top:5px;
+}
+
+.rightcontainer h2{
+    font-size: 10px;
+}
+.rightcontainer #rc-head{
+    font-size: 40px;
+}
+.rightcontainer h2{
+    font-size: 15px;
+}
