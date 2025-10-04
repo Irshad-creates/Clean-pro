@@ -158,3 +158,24 @@ html,body{
 .rightcontainer h2{
     font-size: 15px;
 }
+
+.footer{
+
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(39, 29, 48);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img{
+    height: 50px;
+    border-radius: 10px;
+}
+.footer h1{
+    color: white;
+    /* position: absolute; */
+
+}
