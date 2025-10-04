@@ -7,6 +7,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow: hidden;
   
 }
 .main{
@@ -20,6 +21,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     padding: 50px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navlogo img{
@@ -52,6 +54,7 @@ html,body{
     gap:8px;
     background: transparent;
     border : 1px solid black;
+    font-weight: 700;
 }
 
 .firstquote{
@@ -103,6 +106,7 @@ html,body{
     position: absolute;
     top:30%;
     right:80%;
+    font-family: 'Segoe UI';
 }
 .leftcontainer img{
     height: 80px;
@@ -162,12 +166,15 @@ html,body{
 .footer{
 
     width: 100%;
-    padding: 30px;
+    padding: 28px 50px;
     background-color: rgb(39, 29, 48);
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: absolute;
+    top:100%
 }
 
 .footer img{
@@ -176,6 +183,22 @@ html,body{
 }
 .footer h1{
     color: white;
-    /* position: absolute; */
+    position: absolute;
+    left:17%;
+}
 
+#f-btn{
+    padding: 10px 30px;
+    border-radius: 15px;
+    bottom: none;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#f-btn img{
+    height: 15px;
 }
